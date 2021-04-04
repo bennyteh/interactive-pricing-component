@@ -191,8 +191,20 @@ body {
 .upper-card .billing-type .switch input:checked[type="checkbox"]::before{
     left: 1.375rem;
 }
+.discount {
+    font-size: 0.625rem;
+    font-weight: 800;
+    color: rgb(255, 165, 0);
+    background: rgba(255, 145, 0, 0.253);
+    padding: 0.188rem 0.625rem;
+    margin-left: 0.438rem;
+    border-radius: 0.625rem;
+}
 
-.upper-card .billing-type #bold::after{
+#hidden_desktop {
+    display: none;
+}
+/* .upper-card .billing-type #bold::after{
     content: "-25%";
     font-size: 0.625rem;
     font-weight: 800;
@@ -202,7 +214,7 @@ body {
     margin-left: 0.438rem;
     border-radius: 0.625rem;
     vertical-align: middle;
-}
+} */
 
 .bottom-card {
     border-top: 1px solid rgba(0, 0, 0, 0.1);
@@ -303,9 +315,17 @@ footer {
         font-size: 0.938rem;
     }
 
+    #hidden_mobile {
+        display: none;
+    }
+
+    #hidden_desktop {
+        display: inline-block;
+    }
+/* 
     .upper-card .billing-type #bold::after {
         content: "25% discount";
-    }
+    } */
 
     .bottom-card {
         grid-auto-flow: column;
