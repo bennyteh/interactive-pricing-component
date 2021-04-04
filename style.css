@@ -303,7 +303,7 @@ footer {
         font-size: 0.938rem;
     }
 
-    .upper-card .billing-type .switch p::after {
+    .upper-card .billing-type #bold::after {
         content: "25% discount";
     }
 
